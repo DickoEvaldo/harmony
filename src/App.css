@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
