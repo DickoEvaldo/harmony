@@ -7,7 +7,7 @@ import "../index.css";
 
 const ProjectCard = ({ title, description, index }) => (
   <motion.div
-    className="flex w-full md:w-1/2 lg:w-1/4 border border-black rounded-lg p-4 flex-col border-4"
+    className="flex w-full md:w-1/2 lg:w-1/4 border border-black rounded-lg p-4 flex-col border-4 text-black"
     initial={{ y: 100, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     transition={{
@@ -44,7 +44,7 @@ const Projects = () => {
       style={{ background: "linear-gradient(to bottom, #00bfff, #dbffff)" }}
     >
       <Header isSunVisible={true} />
-      <div className="font-bold text-5xl flex justify-center align-middle my-8">
+      <div className="font-bold text-5xl flex justify-center align-middle my-8 text-black">
         {letters.map((letter, index) => (
           <motion.span
             key={index}
