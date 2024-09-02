@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./MainPage";
-import "./index.css";
 import Projects from "./Projects";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <MainPage />,
   },
   {
-    path: "/",
+    path: "/projects",
     element: <Projects />,
   },
 ]);
